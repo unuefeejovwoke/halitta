@@ -608,6 +608,12 @@ a.button{
     margin-bottom: 3rem;
 }
 
+.page__title a{
+    color: #00d4aaff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .brand__button {
     color: var(--title-color);
     font-size: var(--normal-font-size);
@@ -616,6 +622,9 @@ a.button{
     justify-content: center;
     column-gap: .25rem;
     cursor: pointer;
+}
+.brand__button a{
+    color: var(--title-color);
 }
 
 .brand__button-icon {
